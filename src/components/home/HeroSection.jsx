@@ -92,7 +92,7 @@ const HeroSection = ({ companyStats }) => {
               </div>
 
               {/* Floating testimonial card */}
-              <div className="absolute -bottom-8 -left-8 max-w-xs animate-float rounded-2xl bg-white shadow-xl" style={{ padding: '1rem' }}>
+              <div className="absolute -bottom-8 left-3 lg:-left-8 max-w-xs animate-float rounded-2xl bg-white shadow-xl" style={{ padding: '1rem' }}>
                 <div className="flex items-center" style={{ marginBottom: '0.5rem' }}>
                   <div className="flex text-yellow-400">
                     {[1,2,3,4,5].map(star => (
@@ -108,7 +108,7 @@ const HeroSection = ({ companyStats }) => {
               </div>
 
               {/* Floating price tag */}
-              <div className="absolute -top-4 -right-4 animate-float rounded-full bg-gradient-to-r from-green-400 to-green-500 text-sm font-bold text-white [animation-delay:1.5s]" style={{ padding: '0.5rem 1rem' }}>
+              <div className="absolute -top-4 right-4 lg:-right-4 animate-float rounded-full bg-gradient-to-r from-green-400 to-green-500 text-sm font-bold text-white [animation-delay:1.5s]" style={{ padding: '0.5rem 1rem' }}>
                 Starting Rs 500
               </div>
             </div>

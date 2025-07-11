@@ -76,14 +76,12 @@ const Navbar = () => {
               </div>
               <span
                 className={clsx(
-                  'font-poppins text-2xl font-bold transition-colors',
-                  {
-                    'text-gray-800': isScrolled || isOpen,
-                    'text-white md:text-gray-800': !isScrolled && !isOpen,
-                  }
+                  'font-poppins font-bold transition-colors text-xl md:text-2xl',
+                  'text-gray-800'
                 )}
               >
-                Affordable Balloon Decoration
+                <span className="md:hidden">Affordable Balloons</span>
+                <span className="hidden md:inline">Affordable Balloon Decoration</span>
               </span>
             </Link>
 
@@ -127,20 +125,15 @@ const Navbar = () => {
 
             {/* Mobile menu button */}
             <button
-              className="text-gray-800 md:hidden"
+              className="md:hidden"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle mobile menu"
               style={{ padding: '0.5rem' }}
             >
               {isOpen ? (
-                <X className="h-6 w-6" />
+                <X className="h-6 w-6 text-gray-800" />
               ) : (
-                <Menu
-                  className={clsx('h-6 w-6 transition-colors', {
-                    'text-gray-800': isScrolled,
-                    'text-white': !isScrolled,
-                  })}
-                />
+                <Menu className="h-6 w-6 transition-colors text-gray-800" />
               )}
             </button>
           </div>

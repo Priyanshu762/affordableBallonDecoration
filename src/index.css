@@ -13,6 +13,11 @@ body {
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
 }
 
 /* Remove default button styles */
@@ -74,6 +79,23 @@ img {
 .backdrop-blur-custom {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+
+/* Responsive Typography */
+html {
+  font-size: 16px; /* Base font size for desktop */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px; /* Slightly smaller for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px; /* Smaller for mobile phones */
+  }
 }
 
 /* Print styles */

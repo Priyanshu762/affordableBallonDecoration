@@ -100,6 +100,7 @@ const Footer = () => {
                   </Link>
                 </li>
               ))}
+              
             </ul>
           </div>
 
@@ -206,18 +207,6 @@ const Footer = () => {
           <p className="text-center text-sm text-gray-400">
             &copy; {currentYear} Affordable Balloon Decoration. All Rights
             Reserved.
-          </p>
-          <p className="text-center text-sm text-gray-500">
-            Designed with{' '}
-            <Heart className="inline h-4 w-4 text-red-500" /> by{' '}
-            <a
-              href="https://www.linkedin.com/in/anurag-singh-57b57324b/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-purple-400 hover:underline"
-            >
-              Anurag Singh
-            </a>
           </p>
         </div>
       </div>

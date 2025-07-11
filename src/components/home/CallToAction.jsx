@@ -15,7 +15,7 @@ const CallToAction = () => {
           <h2 className="font-poppins text-3xl font-bold text-white md:text-4xl" style={{ marginBottom: '1rem' }}>
             Ready to Make Your Event Unforgettable?
           </h2>
-          <p className="mx-auto max-w-2xl text-lg text-purple-100" style={{ marginBottom: '2rem' }}>
+          <p className="mx-auto text-lg text-purple-100" style={{ marginBottom: '2rem' }}>
             Let's create something amazing together. Contact us today for a free consultation and let's start planning your perfect event.
           </p>
           <div className="flex justify-center" style={{ gap: '1rem' }}>

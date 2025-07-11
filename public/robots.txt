@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers access to all content
+
+# Sitemap location
+Sitemap: https://balloonmagic.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Block access to admin or private areas (if any)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow CSS and JS files for proper rendering
+User-agent: *
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js

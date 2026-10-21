@@ -28,16 +28,16 @@ const CustomQuoteSection = () => {
                   your needs, we'll create a custom quote just for you.
                 </p>
                 <div className="flex flex-col sm:flex-row" style={{ gap: '1.5rem' }}>
-                  <div className="flex items-center">
+                  <a href="tel:+916307943091" className="flex items-center hover:text-purple-200 transition-colors">
                     <Phone className="w-6 h-6" style={{ marginRight: '0.75rem' }} />
-                    <span className="text-lg font-semibold">(555) 123-4567</span>
-                  </div>
-                  <div className="flex items-center">
+                    <span className="text-lg font-semibold">+91 63079-43091</span>
+                  </a>
+                  <a href="mailto:hello@affordableballoondecoration.com" className="flex items-center hover:text-purple-200 transition-colors">
                     <MessageCircle className="w-6 h-6" style={{ marginRight: '0.75rem' }} />
                     <span className="text-lg font-semibold">
-                      hello@example.com
+                      hello@affordableballoondecoration.com
                     </span>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div className="text-center">
